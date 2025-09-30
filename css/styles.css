@@ -133,7 +133,7 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
-.nav-link:hover::after {
+.nav-link::after {
   content: '';
   position: absolute;
   display: block;
