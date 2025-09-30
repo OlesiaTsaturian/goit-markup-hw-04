@@ -288,10 +288,13 @@ address {
 
 .our-team-wrap {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 .team-item-desc {
   padding: 32px 0;
+  background-color: #fff;
 }
 .our-team-item {
   width: calc((100% - 24px * 3) / 4);
@@ -322,20 +325,20 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.our-team-social-items {
+/* .our-team-social-items {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-}
+} */
 .social-item {
   display: block;
   width: 40px;
   height: 40px;
   background-color: var(--iris);
   border-radius: 50%;
-
   margin-top: 8px;
+  /* background-color: #4d5ae5; */
 }
 .social-link {
   display: flex;
