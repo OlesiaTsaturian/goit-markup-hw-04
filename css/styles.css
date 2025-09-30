@@ -329,26 +329,28 @@ address {
   gap: 24px;
 }
 .social-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   border-radius: 50%;
+
   margin-top: 8px;
 }
 .social-link {
-  display: block;
-  width: 16px;
-  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .social-icon {
   fill: #f4f4fd;
 }
-.social-item:focus,
-.social-item:hover {
+.social-link:focus,
+.social-link:hover {
   background-color: #404bbf;
 }
 
